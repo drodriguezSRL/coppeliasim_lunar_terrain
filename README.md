@@ -17,7 +17,7 @@ Latest version the scene was used with: *V4.0.0 rev4*
 ## Visuals
 
 This is an example of the look and use of the terrain for a 18-m virtual lunar traverse.
-![Image of terrain](https://drive.google.com/file/d/1MaG4xexqLsE3s1r1jkmibdzBi3LK4IM2/view?usp=sharing)
+![Image of terrain](/img/map.png)
 
 ## Terrain characteristics 
 
