@@ -21,10 +21,10 @@ This is an example of the look and use of the terrain for a 18-m virtual lunar t
 
 ## Terrain characteristics 
 
-The terrain contains multiple elevation changes with a maximum slope angle of 22 degrees. The interaction with the ground is computed using the Scaled box fast model and, to simulate the frictionless character of lunar regolith, the dynamic object representative of the terrain is characterized by an isotropic friction of 0.4. This can be changed in the *Dynamic Properties > Material Properties* menu under *Linear Primary and Secondary Axis*, see [here](https://www.coppeliarobotics.com/helpFiles/en/shapeDynamicEngineProperties.htm) for reference. 
+The terrain contains multiple elevation changes with a maximum slope angle of 22 degrees. The interaction with the ground is computed using the Scaled Box Fast model and, to simulate the frictionless character of lunar regolith, the dynamic object representative of the terrain is characterized by an isotropic friction coefficient of 0.4. This can be changed in the *Dynamic Properties > Material Properties* menu under *Linear Primary and Secondary Axis*, see [here](https://www.coppeliarobotics.com/helpFiles/en/shapeDynamicEngineProperties.htm) for reference. 
 
 The terrain was initially meant to be simulated using the high-fidelity physics engine, [Vortex](https://www.cm-labs.com/vortex-studio/), but it can work with any of the other engines available in CoppeliaSim. 
-*Note: Make sure to change material properites and simulation/dynamic times accordingly.*
+*Note: Make sure to change material properites and simulation/dynamic step times accordingly.*
 
 In its default configuration, the terrain does not contain any rocks. These can be easily imported into the scene via *File > Import > Mesh...* and selecting any of the multiple STL files available in the rocks folder.
 
@@ -32,13 +32,11 @@ The terrain includes the lander and a 3-m egress ramp inclined at 15 degrees.
 
 ## Authors
 
-* **David Rodriguez** - *Initial work* - @drodriguezSRL
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **David Rodriguez** - *Initial scene definition* - @drodriguezSRL
 
 ## Acknowledgments
 
-* Thanks to [BREXIT](https://www.thingiverse.com/BREXIT/about) and IdoPrints](https://www.thingiverse.com/IdoPrints/about) form [Thingiverse](https://www.thingiverse.com/) for the STL files. 
+* Thanks to [BREXIT](https://www.thingiverse.com/BREXIT/about) and [IdoPrints](https://www.thingiverse.com/IdoPrints/about) form [Thingiverse](https://www.thingiverse.com/) for the STL files. 
 
 ## Contributing
 
