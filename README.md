@@ -1,6 +1,6 @@
 # CoppeliaSim Lunar Terrain
 
-A simple lunar-like virtual scene to be used with robotics simulator CoppeliaSim. 
+A simple lunar-like virtual scene to be used with robotics simulator [CoppeliaSim](https://www.coppeliarobotics.com/). 
 
 *Note: The terrain does not correspond to a real region of the Moon, but has, instead, being modeled using the **Terrain.ttm** tool available by default. Digital elevation models can be imported as heightfield shapes in CoppeliaSim as per the information provided [here](https://www.coppeliarobotics.com/helpFiles/en/importExport.htm).*  
 
